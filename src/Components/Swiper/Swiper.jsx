@@ -53,13 +53,11 @@ export default function MySwiper() {
               className="card group relative w-[90%] max-w-md rounded-2xl overflow-hidden shadow-lg mx-auto"
               data-aos="fade-up"
             >
-              {/* 🔹 العنوان */}
               <div className="dark:bg-purple-950/25 bg-purple-500/20 "> <div className="text-center py-3 font-bold text-transparent  bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-800 text-xl">
                 {project.title}
               </div></div>
              
 
-              {/* 🔹 الصورة + اللاير */}
               <div className="relative">
                 <img
                   src={project.img}
@@ -67,9 +65,7 @@ export default function MySwiper() {
                   className="w-full h-72 object-cover"
                 />
 
-                {/* 🔹 اللاير عند الهوفر */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent flex flex-col items-center justify-center opacity-0 translate-y-full group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-700 ease-out">
-                  {/* الأيقونات */}
                         <div className="flex gap-6">
                   <a
                     href="#"
@@ -85,7 +81,6 @@ export default function MySwiper() {
                   </a>
                 </div>
 
-                  {/* الوصف */}
                   <p className="text-gray-100 text-sm px-4 text-center max-w-[80%]">
                     {project.desc}
                   </p>
