@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap");
+
+.styled {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 0;
+  color: transparent;
+  text-transform: uppercase;
+  background-size: 500%;
+  background-clip: text;
+  text-shadow: -1px 1px 0px #ffffff, -2px 2px 0px #f0f0f0, -3px 3px 0px #cdf2ff,
+    -4px 4px 0px #ffffff, -5px 5px 0px #10858d, -6px 6px 5px #d75bf0,
+    -7px 7px 0px #d4f3ff, -8px 8px 10px #a9e9ff, -9px 9px 5px #84e0ff,
+    -10px 10px 10px #1ac6ff, -11px 11px 10px #ff39de, -12px 12px 10px #ff21bc,
+    -13px 13px 0px rgb(33, 166, 255), -14px 14px 0px rgb(33, 166, 255),
+    -15px 15px 0px rgb(33, 166, 255), -16px 16px 0px rgb(33, 166, 255);
+  transition: transform 0.4s ease, filter 0.3s ease;
+  filter: brightness(1.3);
+  position: relative;
+}
+
+.styled:hover {
+  transform: scale(1.02);
+}
+.styled::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #f7f7f7,
+    #2b09eb,
+    #f806c4,
+    #9c31ff,
+    #ff0d9e
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 2000% 2000%;
+  mix-blend-mode:saturation;
+  opacity: 0.8;
+  filter: blur(10px);
+  transition: transform 0.4s ease, filter 0.3s ease;
+z-index: 1;
+
+  animation: neonGlow 20s linear infinite;
+}
