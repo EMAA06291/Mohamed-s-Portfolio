@@ -132,7 +132,7 @@ const Header = () => {
 
       <header
         id="home"
-        className="relative h-screen flex flex-col items-center justify-start sm:justify-center pt-40 sm:pt-0 text-center xl:px-6 mt-[80px]"
+        className="relative h-screen flex flex-col items-center justify-start sm:justify-center pt-30 sm:pt-0 text-center xl:px-6 mt-[80px]"
       >
         <div className="flex items-center xl:right-20 relative justify-center w-full">
           <img
