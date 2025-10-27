@@ -19,7 +19,7 @@ function Aboutme() {
           <div className="mx-auto my-4 w-20 h-1 bg-gradient-to-r from-cyan-300 via-blue-700 to-purple-800 rounded-full"></div>
          
         </div>
-        <div className="container mx-auto px-4 pt-50 lg:pt-0 max-w-6xl ">
+        <div className="container mx-auto px-4 lg:pt-0 max-w-6xl ">
           <div className="text-center mb-12" data-aos="fade-up"></div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-7">

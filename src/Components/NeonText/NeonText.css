@@ -6,7 +6,7 @@
   font-weight: 0;
   color: transparent;
   text-transform: uppercase;
-  background-size: 500%;
+  background-size: 100%;
   background-clip: text;
   text-shadow: -1px 1px 0px #ffffff, -2px 2px 0px #f0f0f0, -3px 3px 0px #cdf2ff,
     -4px 4px 0px #ffffff, -5px 5px 0px #10858d, -6px 6px 5px #d75bf0,
@@ -16,7 +16,6 @@
     -15px 15px 0px rgb(33, 166, 255), -16px 16px 0px rgb(33, 166, 255);
   transition: transform 0.4s ease, filter 0.3s ease;
   filter: brightness(1.3);
-  position: relative;
 }
 
 .styled:hover {
@@ -40,12 +39,10 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-size: 2000% 2000%;
-  mix-blend-mode:saturation;
+  background-size: 100% 100%;
+  mix-blend-mode: saturation;
   opacity: 0.8;
   filter: blur(10px);
   transition: transform 0.4s ease, filter 0.3s ease;
-z-index: 1;
-
-  animation: neonGlow 20s linear infinite;
+  z-index: 1;
 }
