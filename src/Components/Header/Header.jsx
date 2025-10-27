@@ -132,7 +132,7 @@ const Header = () => {
 
       <header
         id="home"
-        className="relative h-screen flex flex-col items-center justify-center text-center xl:px-6 mt-[80px]"
+        className="relative h-screen flex flex-col items-center justify-start sm:justify-center pt-40 sm:pt-0 text-center xl:px-6 mt-[80px]"
       >
         <div className="flex items-center xl:right-20 relative justify-center w-full">
           <img
@@ -142,7 +142,7 @@ const Header = () => {
           />
         </div>
 
-        <div className="image w-20 h-20 sm:w-25 sm:h-25 z-2 xl:top-[30%] top-[40%] right-[60%] xl:right-[60%] sm:top-[37%] sm:right-[50%] md:right-[60%] absolute overflow-hidden rounded-full">
+        <div className="image w-20 h-20 sm:w-25 sm:h-25 z-2 xl:top-[30%] top-[30%] right-[60%] xl:right-[60%] sm:top-[35%] sm:right-[50%] md:right-[65%] absolute overflow-hidden rounded-full">
           <img
             src={mohamedPhoto}
             alt="my picture"
@@ -153,7 +153,7 @@ const Header = () => {
         <Neonbg />
 
         <div
-          className="z-5 absolute xl:top-[30%] left-[35%] xl:left-[40%] sm:left-[50%]"
+          className="z-5 absolute xl:top-[30%] left-[35%] xl:left-[40%] sm:left-[50%] top-[30%] sm:top-auto "
           data-aos="fade-up"
         >
           <NeonText
