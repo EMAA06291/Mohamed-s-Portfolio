@@ -81,21 +81,23 @@ const Header = () => {
         />
 
         <div
-          className={`absolute left-0 right-0 top-full bg-transparent backdrop-blur-sm transition-all duration-500 ease-in-out md:static sm:block ${
-            isOpen
-              ? "opacity-100 translate-y-0 visible"
-              : "opacity-0 -translate-y-5 invisible"
-          }`}
+          className={`absolute left-0 right-0 top-full bg-transparent backdrop-blur-sm 
+  transition-all duration-500 ease-in-out 
+  md:static md:block lg:flex 
+  ${
+    isOpen
+      ? "opacity-100 translate-y-0 visible"
+      : "opacity-0 -translate-y-5 invisible md:visible md:opacity-100 md:translate-y-0"
+  }`}
         >
-<NavbarCollapse
-  className="flex flex-col sm:flex-row items-center justify-center  
+          <NavbarCollapse
+            className="flex flex-col sm:flex-row items-center justify-center  
   gap-3 py-4 px-6 sm:p-0 
   absolute sm:static top-full left-0 w-full 
   bg-transparent backdrop-blur-md sm:backdrop-blur-0 
   transition-all duration-500 ease-in-out 
   z-[9999] sm:z-auto"
->
-
+          >
             {links.map((link) => (
               <NavbarLink
                 key={link.href}
