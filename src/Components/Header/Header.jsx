@@ -106,7 +106,7 @@ const Header = () => {
                   smoothScrollTo(link.href);
                   setIsOpen(false);
                 }}
-                className={`text-lg sm:w-[650px] md:w-auto w-96  font-poppins font-bold rounded transition-all duration-300 my-1 md:my-0 md:py-0 px-2 no-underline
+                className={`text-lg sm:w-[650px] md:w-auto w-90  font-poppins font-bold rounded transition-all duration-300 my-1 md:my-0 md:py-0 px-2 no-underline
                   ${
                     activeLink === link.href
                       ? "bg-[#afb3f2] text-[#1d20c07c] dark:bg-[#bdaff2] dark:text-[#11103f]"
